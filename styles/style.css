@@ -31,7 +31,6 @@
 }
 
 .menu-item-main {
-    /* убрать маркер у первого элемента */
     list-style: none;
     text-decoration: none;
 }
@@ -292,7 +291,6 @@
     margin-left: -6px;
     height: 120px;
     width: 688px;
-    /* padding-right: 25px; */
 }
 
 .second-description {
@@ -302,7 +300,58 @@
 }
 
 .footer {
-    padding-top: 180px;
+    display: grid;
+    margin-top: 180px;
     height: 180px;
     width: 1100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+}
+
+.contact-list-footer{
+    text-align: left;
+    justify-self: start;
+    padding-left: 50px;
+}
+
+.menu-items-footer {
+    text-decoration: none;
+    list-style: none;
+    gap: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu-items-footer a {
+    text-decoration: none;
+}
+
+.footer-contacts {
+    display: flex; /* Включаем flexbox */
+    flex-direction: row; /* Горизонтальное расположение (по умолчанию) */
+    gap: 48px; /* Расстояние между иконками */
+    align-items: center; /* Выравнивание по вертикали */
+}
+
+.youtube,
+.vk,
+.pinterest {
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.youtube {
+    background-image: url(../images/yt.svg);
+}
+
+.vk {
+    background-image: url(../images/vk.svg);
+}
+
+.pinterest {
+    background-image: url(../images/pinterest.svg);
 }
