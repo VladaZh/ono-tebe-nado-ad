@@ -18,7 +18,7 @@
 }
 
 .menu-items {
-    display: flex; 
+    display: flex;
     justify-content: start;
     gap: 28px;
     padding: 0;
@@ -160,10 +160,10 @@ a {
 .lots-title {
     width: 121px;
     height: 47px;
-    padding-left: 40px;
+    /* padding-left: 40px; */
     font-weight: bold;
     font-size: 40px;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     padding-left: 64px;
 }
 
@@ -308,7 +308,7 @@ a {
 }
 
 .contact-list-footer
-a { 
+a {
     text-decoration: underline;
     text-underline-offset: 4px;
 }
