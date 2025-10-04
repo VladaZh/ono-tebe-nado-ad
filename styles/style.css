@@ -53,7 +53,8 @@
 
 }
 
-.contact-list a { 
+.contact-list 
+a { 
     text-decoration: underline;
     text-underline-offset: 4px;
 }
@@ -190,7 +191,6 @@
     position: relative;
     height: 100%;
     width: 334px;
-    height: 596px;
     display: flex;
     flex-direction:column;
     justify-content: space-between;
@@ -306,7 +306,8 @@
     align-items: start;
 }
 
-.contact-list-footer a { 
+.contact-list-footer
+a { 
     text-decoration: underline;
     text-underline-offset: 4px;
 }
